@@ -69,3 +69,54 @@ borisList = ["ABC", True, "Jawohl"]
 print(borisList)
 borisList.clear()
 print(borisList)  # is empty
+
+# how to loop through lists
+for i in range(len(fullNumberList)):
+    print(fullNumberList[i])
+
+# or with while
+
+i = 0
+while i < len(thisList):
+    print(thisList[i])
+    i = i + 1
+
+# or with comprehension
+
+[print(x) for x in thisList]
+
+# sort list alphanumerical ascending
+fruits = ["apple", "banana", "cherry", "watermelon", "mango"]
+fruits.sort()
+print(fruits)
+
+# to sort it descending use reverse = True
+fruits.sort(reverse=True)
+print(fruits)
+
+
+# sort the list to be as close to 50
+def myfunc(n):
+    return abs(n - 50)
+
+
+numList = [2, 40, 50, 30, 65]
+numList.sort(key=myfunc)
+print(numList)
+
+# sort is case sensitive so we will make it lower case
+fruits.sort(key=str.lower)
+print(fruits)
+
+# Method 	Description
+# append()	Adds an element at the end of the list
+# clear()	Removes all the elements from the list
+# copy()	Returns a copy of the list
+# count()	Returns the number of elements with the specified value
+# extend()	Add the elements of a list (or any iterable), to the end of the current list
+# index()	Returns the index of the first element with the specified value
+# insert()	Adds an element at the specified position
+# pop()	Removes the element at the specified position
+# remove()	Removes the item with the specified value
+# reverse()	Reverses the order of the list
+# sort()	Sorts the list
