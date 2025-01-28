@@ -34,10 +34,6 @@ cd CodingPython
 
 3. Übungen und Skripte in der IDE oder direkt über die Konsole ausführen.
 
-## Lizenz
-
-Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
-
 ---
 
 Dieses Repository ist ausschließlich für meine persönliche Nutzung und Weiterbildung gedacht. 🚀
